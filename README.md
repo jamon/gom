@@ -1,4 +1,4 @@
-# Gulf of Mexico Fixer Chrome Extension
+# Gulf of Mexico Fixer Chrome/Firefox Extension
 
 This Chrome/Firefox extension corrects the erroneous labeling of the "Gulf of Mexico" as the "Gulf of America" on that one map site.
 
