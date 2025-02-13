@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Map Fix for Gulf of Mexico",
+    "version": "1.0",
+    "description": "Fixing Gulf of Mexico on a particular map site...",
+    "content_scripts": [
+      {
+        "matches": ["https://*.google.com/maps/*"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["injected.js"],
+        "matches": ["https://www.google.com/*" , "https://maps.google.com/*"]
+      }
+    ]
+  }
+  
